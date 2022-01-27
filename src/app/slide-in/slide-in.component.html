@@ -1,0 +1,11 @@
+<div
+  id="create-company"
+  [@slideContent]="animationState"
+  (@slideContent.start)="onAnimationStart($event)"
+  (@slideContent.done)="onAnimationDone($event)"
+>
+    <mat-card >
+        <h1>Slide-In Component</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur magnam impedit dolor deleniti quibusdam harum delectus natus quas quae? Est, amet iure officiis sequi nam fugiat eius illo autem officia?</p>
+    </mat-card>
+</div>
